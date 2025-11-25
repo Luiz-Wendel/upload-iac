@@ -1,13 +1,13 @@
 import * as aws from "@pulumi/aws";
 
-const firstBucket = new aws.s3.Bucket("first-bucket", {
+const firstBucket = new aws.s3.Bucket("pos-rocketseat-first-bucket", {
   bucket: "first-bucket",
   tags: {
     IAC: "true",
   }
 });
 
-const secondBucket = new aws.s3.Bucket("second-bucket", {
+const secondBucket = new aws.s3.Bucket("pos-rocketseat-second-bucket", {
   bucket: "second-bucket",
   tags: {
     IAC: "true",
